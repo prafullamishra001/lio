@@ -1,0 +1,145 @@
+@media screen and (max-width:1080px) {
+
+    nav{flex-direction: column;}
+
+    .left{right: 15px;
+    top: -85px;}
+
+    li{position: relative;
+    top: -50px;}
+
+    .list{position: relative;
+    top: -30px;}
+
+    header{height: 80px;}
+    
+    .content {margin-top: -8px;}
+
+    .content h1{font-size: 90px;
+margin-top: 50px;}
+
+    .content1 h1{position: relative;
+        right: -13px;}
+
+    .box{width: 175px;
+    height: 210px;
+margin-left: -10px;}
+
+    .box img{width:175px;}
+
+    .clients img{width: 300px;}
+
+    .clients{margin-left: 3px;
+    margin-top: 40px;}
+
+    body::before{height: 100%;}
+}
+
+
+
+@media screen and (max-width:428px) {
+    header{flex-direction: column;
+    height: 91px;}
+    
+    .left{top: -4px;}
+
+    .left img{height: 40px;
+    width: 40px;}
+
+    .list{top: 55px;}
+
+    .list ul li a{font-size: 13px;}
+
+    .content h1{font-size: 43px;}
+
+    .content1 h1{right:0px}
+
+    .products{right: 20px;}
+
+    .box{margin-right: 25px;}
+
+    .top{right: 18px;}
+
+    .center{right:18px;}
+
+    .bottom{right: 18px;}
+
+    .clients img{width: 140px;}
+
+    .reviews{height: 300px;}
+
+    #nine{position: relative;
+    top: -300px;}
+
+    .reviews::before{height: 82%;}
+
+    .clients{top: -180px;}
+
+    .clients img{width: 127px;}
+
+    .call{left: 51px;
+    flex-direction: column;
+    top: 38px;}
+
+    #green{width: 293px;}
+
+    #red{margin-bottom: 10px;}
+
+    #blue{margin-bottom: 10px;}
+
+    body::before{height: 248%;}
+
+
+
+}
+
+
+
+@media  screen and (max-width:404px) {
+    .left{top: 0px;}
+
+    .list ul li a{font-size: 12px;}
+
+    .content h1{font-size: 30px;}
+
+    .content p{font-size: 15px;}
+
+    .box{width: 150px;}
+
+    .box img{width: 150px;}
+
+    .clients img{width: 105px;}
+
+    .foot p{font-size: 15px;}
+
+    #green{width: 225px;}
+
+    body{height: 246%;}
+    
+}2
+
+
+@media  screen and (max-width:346px) {
+
+    .left{top: 6px;}
+
+    .list ul li a{font-size: 9px;}
+
+    .list{top: 64px;}
+
+    #green{width: 239px;}
+
+    .body{height: 246%;}
+
+}
+
+
+@media  screen and (max-width:376px) {
+    body::before{height: 226%;}
+
+    #green{width:253px;}
+
+    .list ul li a{font-size: 7px;}
+
+
+}

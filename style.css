@@ -1,0 +1,199 @@
+
+*{margin: 0;
+padding: 0;
+font-family: Lobster;}
+
+html{scroll-behavior: smooth;}
+
+body::before{content: "";
+background: url('kyaw-tun-ssG41C6mwrQ-unsplash.jpg') no-repeat center center/cover;
+position: absolute;
+height: 259%;
+width: 100%;
+opacity: 0.7;}
+
+header{
+    height: 10vh;
+    position:sticky;
+    top: 0;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 2;}
+
+.left{position: relative;
+right: 301px;}
+
+nav{display: flex;
+justify-content: center;
+align-items: center;
+height:10vh ;}
+
+ul{display: flex;
+list-style: none;
+top: 20px;
+font-size: large;}
+
+a{margin: 15px;
+text-decoration: none;
+color: white;
+padding: 5px 9px;}
+
+.list a:hover{background-color: white;
+color: black;
+border-radius: 9px;
+font-style: italic;}
+
+
+.box{height: 212px;
+width: 191px;
+background-color: white;
+color: black;
+z-index: 1;
+margin: 89px;
+margin-left: 20px;
+border-radius: 15px;
+box-shadow: 15px 15px 20px black
+;}
+
+.top{display: flex;
+position: relative;
+right: 4px;
+overflow-x: scroll;}
+
+.center{display: flex;
+    position: relative;
+    right: 4px;
+overflow-x: scroll;}
+
+.bottom{display: flex;
+    position: relative;
+    right: 4px;
+overflow-x: scroll;}
+
+.products{position: absolute;
+left: 59px;
+top: 242px;
+margin-right: 2px;}
+
+body{height: 1874px;}
+
+.foot{height: 50px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+position: relative;
+margin-top: 1306px;}
+
+.content{position: relative;
+color: white;
+margin-top: 12px;}
+
+.content1{position: relative;
+color: white;
+margin-top: 74px;
+top: 24px;
+left: -30px;}
+
+.content h1{text-align: center;
+margin-bottom: 20px;
+font-size: 100px;}
+
+.content p{text-align: center;
+font-size: large;}
+
+.content1 h1{text-align: center;}
+
+hr{position: relative;}
+
+.two{text-align: center;
+margin-top: 3px;}
+.three{text-align: center;
+margin-top: 4px;}
+
+.reviews{position: relative;
+ text-align: center;
+color: white;
+top: 1306px;}
+
+.reviews::before{content: "";
+    background: url('i4.jpg') no-repeat center center/cover;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+opacity: 0.9;}
+
+.reviews h1{position: relative;
+top: 3px;
+padding: 3px;}
+
+.clients{display: flex;
+position: relative;
+top: -141px;}
+
+.clients img{width: 400px;
+margin-top: 90px;
+padding-right: 8px;}
+
+.contact{position: relative;
+    text-align: center;
+   color: black;
+top: 1306px;
+height: 230px;}
+
+.contact::before{content: "";
+    background: url('i5.png') no-repeat center center/cover ; height: 230px;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+opacity: 0.5;}
+
+.reviews img{margin-top: 150px;}
+
+
+.call{display: flex;
+position: relative;
+top: 81px;
+left: -4px;
+justify-content: center;}
+
+.call a{color: black;
+padding: 2px 5px;
+margin: 2px 0px;
+position: relative;
+top: 3px;
+right: 1px;}
+
+.call a:hover{border-radius: 9px;
+    font-style: italic;
+color: black;}
+
+#red{position: relative;
+
+border: 2px solid black;
+border-radius: 9px;
+padding: 3px;
+margin-right: 100px;}
+
+#blue{position: relative;
+
+border: 2px solid black;
+border-radius: 9px;
+margin-right: 100px;}
+
+#green{position: relative;
+
+border: 2px solid black;
+border-radius: 9px;
+padding: 0px 8px;
+width: 120px;
+margin-right: 100px;}
+
+#green a{padding: 2px 39px;
+position: relative;
+left: -5px;}
+
